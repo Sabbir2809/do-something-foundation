@@ -8,6 +8,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/*  */
 h1 {
   font-size: 60px;
 }
@@ -111,6 +112,7 @@ input[type="number"] {
   margin: 50px;
 }
 
+
 /* Our Donate Plan Section */
 .donate-plan {
   display: flex;
@@ -144,8 +146,25 @@ input[type="number"] {
   height: 200px;
 }
 
-.heighlight-section {
-  display: flex;
+
+/*  */
+.card {
+  width: 20%;
+  display: inline-block;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 5px;
+  margin: 2%;
+}
+
+.image img {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.title {
+  text-align: center;
+  padding: 10px;
 }
 
 .img-size {
@@ -167,6 +186,7 @@ input[type="number"] {
   background-color: #d9d9d9;
 }
 
+
 /* Footer Section */
 footer {
   background-color: #0b0d17;
@@ -187,21 +207,3 @@ footer > p {
   color: white;
 }
 
-.card {
-  width: 20%;
-  display: inline-block;
-  box-shadow: 2px 2px 20px black;
-  border-radius: 5px;
-  margin: 2%;
-}
-
-.image img {
-  width: 100%;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-}
-
-.title {
-  text-align: center;
-  padding: 10px;
-}
